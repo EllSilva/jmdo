@@ -190,8 +190,19 @@ section.contact-us .right-info ul li span {
  
   section.contact-us #contact {
     margin-bottom: 30px;
+  } 
+ 
+ 
+  @media screen and (max-width:569px) {
+    .itens {
+     display: flex;
+     flex-direction: column;	
+    }
+    .itens-1 {
+     order: 2;
+    }  
+    .itens-2 {
+      order: 1;
+    } 
   }
-
  
- 
-  
