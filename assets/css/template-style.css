@@ -1501,7 +1501,7 @@ section, header {
     padding: 0;
   }
   .padding-1x {
-    padding: 1px !important;
+    padding: 5px !important;
   }
   .padding-2x {
     padding: 2.5rem 1.25rem !important;
