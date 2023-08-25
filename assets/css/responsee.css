@@ -229,8 +229,8 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   font-size:0.7rem;
   margin:0 0.625rem;
 }
-.top-nav .active-item a {background:#2b4c61;}
-.aside-nav > ul > li.active-item > a:link,.aside-nav > ul > li.active-item > a:visited {
+.top-nav .active_item a {background:#2b4c61;}
+.aside-nav > ul > li.active_item > a:link,.aside-nav > ul > li.active_item > a:visited {
   background:#2b4c61;
   color:#fff;
 }
@@ -287,7 +287,7 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
 }
 .aside-nav ul ul a {padding:0.625rem 1.25rem;}
 .aside-nav li a:link, .aside-nav li a:visited {color:#333;}
-.aside-nav li li a:hover, .aside-nav li li.active-item > a, .aside-nav li li.aside-sub-submenu li a:hover {
+.aside-nav li li a:hover, .aside-nav li li.active_item > a, .aside-nav li li.aside-sub-submenu li a:hover {
   color:#fff;
   background:#2b4c61;
 }
