@@ -14,6 +14,13 @@ export default {
 
   async mounted() {
 
+ 
+    
+    AOS.init({
+      duration: 1000,
+    });
+   
+
     var slider = new KeenSlider(
       "#my-keen-slider",
       {
@@ -127,6 +134,12 @@ export default {
       ]
     )
 
+    var slider = new KeenSlider("#my-keen-slider4", {
+      slides: {
+        perView: 5,
+      },
+    })
+  
   },
   template: await get_template('./assets/js/view/home/home')
 }

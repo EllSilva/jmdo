@@ -25,7 +25,8 @@ export default {
                 this.activo4 = false,
                 this.activo3 = false,
                 this.activo2 = false,
-                this.activo1 = true
+                this.activo1 = true,
+                this.activo = !this.activo; 
         },
 
         sobreMenu() {
@@ -34,6 +35,7 @@ export default {
             this.activo3 = false,
             this.activo2 = true,
             this.activo1 = false
+            this.activo = !this.activo; 
         },
 
         servicoMenu() {
@@ -41,7 +43,8 @@ export default {
             this.activo4 = false,
             this.activo3 = true,
             this.activo2 = false,
-            this.activo1 = false
+            this.activo1 = false,
+            this.activo = !this.activo; 
         },
 
         galeriaMenu() {
@@ -49,7 +52,8 @@ export default {
             this.activo4 = true,
             this.activo3 = false,
             this.activo2 = false,
-            this.activo1 = false
+            this.activo1 = false,
+            this.activo = !this.activo; 
         },
 
         contactoMenu() {
@@ -57,7 +61,8 @@ export default {
             this.activo4 = false,
             this.activo3 = false,
             this.activo2 = false,
-            this.activo1 = false
+            this.activo1 = false,
+            this.activo = !this.activo; 
         },
 
          
