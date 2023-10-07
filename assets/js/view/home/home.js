@@ -134,9 +134,12 @@ export default {
       ]
     )
 
+
+    
     var slider = new KeenSlider("#my-keen-slider4", {
       slides: {
-        perView: 5,
+        perView: 6,
+        loop: true,
       },
     })
   
