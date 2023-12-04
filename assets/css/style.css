@@ -1,5 +1,10 @@
 
 
+
+.justify-123 {
+  text-align: justify
+ }
+ 
 .offset-123 {
  margin-left: 20px;
 }
